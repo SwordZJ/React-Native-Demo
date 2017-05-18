@@ -1,22 +1,15 @@
 import React, { Component } from 'react';
 import {
   StyleSheet,
-  ScrollView,
-  Text,
+  Image,
   PixelRatio,
-  TouchableHighlight,
-  TouchableOpacity,
   View
 } from 'react-native';
 
 
 // 学习按钮用法
-export default class LearnTouchUI extends Component{
-  show(text){
-      alert(text);
-  }
-  
-  
+export default class LearnImageUI extends Component{
+
   /*
 
   */
